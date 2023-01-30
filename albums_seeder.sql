@@ -1,4 +1,7 @@
 USE codeup_test_db;
+
+    TRUNCATE albums;
+
     INSERT INTO albums (artist, name, release_date, sales, genre)
     VALUES
         ("Eagles", "Their Greatest Hits (1971-1975)", 1976, 42.0, "Rock"),
